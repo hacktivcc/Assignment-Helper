@@ -18,7 +18,6 @@ def save_credentials(email, password):
     set_key(dotenv_path, 'MADARASATI_EMAIL', email)
     set_key(dotenv_path, 'MADARASATI_PASSWORD', password)
 
-sys.stdout.reconfigure(encoding='utf-8')
 
 class MadarasatiSa:
     def __init__(self, email=None, password=None):
